@@ -8,7 +8,7 @@ Features:
 - Add projects
 - change biography
 - change CV
-- backend  with website(rails or spring)
+- backend with website(rails)
 - biography image from gravatar
 - configuration
 
@@ -16,4 +16,4 @@ Technologies:
 - Rails
 - javascript
 - html5
-- senchatouch/jquerymobile/rails
+- senchatouch
