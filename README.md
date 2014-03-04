@@ -6,14 +6,19 @@ Welcome to MyPortfolioApp. MyPortfolioApp (MPA) will provide a portfolio app for
 Features:
 
 - Add projects
+- add colaborator to project
 - change biography
 - change CV
-- backend with website(rails)
 - biography image from gravatar
 - configuration
 
+
+spare time features:
+- Follow other user
+
 Technologies:
-- Rails
+- Spring
 - javascript
 - html5
 - senchatouch
+- mongodb
