@@ -3,7 +3,7 @@ MyPortfolioApp Design doc
 
 ###Account:
 
-```java
+```Java
 
 String firstName;
 
@@ -24,6 +24,7 @@ String cvId
 
 ###Biography
 
+```Java
 String ownerUsername;
 
 String id;
@@ -31,10 +32,12 @@ String id;
 String text;
 
 Byte pictureBytes[];
+```
 
 
 
 ###Project:
+```Java
 
 String id;
 
@@ -47,13 +50,13 @@ List<String> collaboratorUsernames = new ArrayList<>();
 String description;
 
 List<Byte[]> imagesBytes = new ArrayList<>();
-
+```
 
 
 ###Cv:
-
+```Java
 String id;
-
+```
 
 
 
@@ -61,42 +64,42 @@ String id;
 
 
 ###AccountController:
-
+```Java
 createAccount();
 
 updateAccount();
 
 deleteAccount();// if no other collaborators remove projects
-
+```
 
 
 ###ProjectController:
-
+```Java
 createProject();
 
 updateProject();
 
 deleteProject();
-
+```
 
 
 ###BiographyController:
-
+```Java
 createBiography();
 
 updateBiography();
 
 deleteBiography();
-
+```
 
 
 
 
 ###CvController:
-
+```Java
 createCv();
 
 updateCv();
 
 deleteCv();
-
+```
