@@ -3,6 +3,8 @@ MyPortfolioApp Design doc
 
 ###Account:
 
+```java
+
 String firstName;
 
 String lastName;
@@ -16,6 +18,7 @@ List<String> projectIds = new ArrayList<>();
 String biographyId
 
 String cvId
+```
 
 
 
