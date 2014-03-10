@@ -1,7 +1,16 @@
 MyPortfolioApp Design doc
 ==============
 
-###Account:
+##Style conventions:
+For java I will use the camelCase style convention. For the models I will use getters and setters. I will try to use loose coupling at all time so things can be seperated from each other. This will be achieved by using dependency injection (which spring integrates very nicely :) ).The project will use a MVC structure wat a mongodb instance as database. I will use Spring-mvc, spring security and spring data to achieve this. The design will be done with bootstrap. I will use javascript to make async ajax calls so things are loaded without refreshing.
+
+##Mongo
+I use mongodb because it's a quick way to store and retrieve things because of its document driven structure. an account wil have a username that is unique. In this way the projects, cv and biography will be linked by using a foreign "key".
+
+
+##java
+
+####Account:
 These are the entities that an account has. these will also be saved like this in a collection called "account".
 ```Java
 
@@ -20,7 +29,7 @@ String cvId
 
 
 
-###Biography
+####Biography
 These are the entities that a biography has. these will be saved in a collection called "biography"
 ```Java
 String ownerUsername;
@@ -34,7 +43,7 @@ Byte pictureBytes[];
 
 
 
-###Project:
+####Project:
 These are the entities that a project has. these will be saved in a collection called project
 ```Java
 
@@ -52,8 +61,8 @@ List<Byte[]> imagesBytes = new ArrayList<>();
 ```
 
 
+####Cv:
 these are the entities a CV has. these will be saved in a collection called cv
-###Cv:
 ```Java
 String id;
 List<String> languages = new ArrayList<>();
@@ -65,7 +74,7 @@ List<String> jobs = new ArrayList<>();
 
 
 
-###AccountController:
+####AccountController:
 This controller maps all request that has something to do with accounts
 ```Java
 showCreateAccountpage();
@@ -82,7 +91,7 @@ deleteAccount(Account account);// if no other collaborators remove projects
 ```
 
 
-###ProjectController:
+####ProjectController:
 This controller maps all request that has something to do with projects
 ```Java
 showProject(String id);
@@ -99,7 +108,7 @@ deleteProject(Project project);
 ```
 
 
-###BiographyController:
+####BiographyController:
 This controller maps all request that has something to do with biographies
 ```Java
 showUpdateBiographyPage();
@@ -116,7 +125,7 @@ deleteBiography(Biograpy biography);
 
 
 
-###CvController:
+####CvController:
 This controller maps all request that has something to do with cv's
 ```Java
 showUpdateCvPage();
@@ -130,7 +139,7 @@ updateCv(Cv cv);
 deleteCv(Cv cv);
 ```
 
-###indexController:
+####indexController:
 This controller maps all request that don't belong to the above.
 ```Java
 home();
