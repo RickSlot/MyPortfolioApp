@@ -7,6 +7,8 @@ For java I will use the camelCase style convention. For the models I will use ge
 ##Mongo
 I use mongodb because it's a quick way to store and retrieve things because of its document driven structure. an account wil have a username that is unique. In this way the projects, cv and biography will be linked by using a foreign "key".
 
+##Design
+The designs can be found in this folder. they are named design 1, 2 and 3!
 
 ##java
 
