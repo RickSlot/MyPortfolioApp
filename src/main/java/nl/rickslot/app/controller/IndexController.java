@@ -25,4 +25,9 @@ public class IndexController {
     public String signup(RedirectAttributes attributes){
         return "signup";
     }
+
+    @RequestMapping(value = "login")
+    public String login(){
+        return "login";
+    }
 }

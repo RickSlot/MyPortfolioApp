@@ -23,4 +23,9 @@ public class AccountServiceImpl implements AccountService {
         return false;
 
     }
+
+    @Override
+    public Account findByUsername(String username) {
+        return accountRepository.findByUsername(username);
+    }
 }

@@ -4,6 +4,8 @@ import nl.rickslot.app.model.Account;
 import nl.rickslot.app.model.Biography;
 import nl.rickslot.app.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -19,6 +21,22 @@ public class AccountController {
 
     @Autowired
     AccountService accountService;
+
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public ModelAndView showAccountPage() {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        ModelAndView view = new ModelAndView();
+        Account account = accountService.findByUsername(auth.getName());
+        view.addObject("account", account);
+
+        Biography biography = new Biography();
+        biography.setText("This is my first portfolio. i would like to thank everyone for making this" +
+                "biography possible. without the help of ruby i couldnt have achieved this! Chase your dreams," +
+                "to the stars and beyond");
+        view.addObject("biography", biography);
+        view.setViewName("account");
+        return view;
+    }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public ModelAndView createAccount(@RequestBody Account account) {

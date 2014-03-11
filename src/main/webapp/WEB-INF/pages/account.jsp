@@ -20,11 +20,11 @@
         <div class="col-lg-3 border top-buffer">
             <h1>Profile</h1>
             <c:if test="${account != null}">
-                <c:if test="${biography != null}">
                     <img src="http://www.aafje.nl/filelib/s1/profile.jpg" alt="profile pic" height="200" width="175">
                     <p><br><strong>Firstname: </strong>${account.firstName}<br>
                     <strong>Lastname: </strong>${account.lastName}<br>
                     <strong>Username: </strong>${account.username}<br>
+                <c:if test="${biography != null}">
                     <strong>Motto: </strong>${biography.text}</p>
                 </c:if>
             </c:if>

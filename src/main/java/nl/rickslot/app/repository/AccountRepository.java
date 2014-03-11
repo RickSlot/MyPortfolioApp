@@ -36,4 +36,10 @@ public class AccountRepository {
         return false;
     }
 
+    public Account findByUsername(String username){
+        Query query = new Query(Criteria.where("username").is(username));
+        Account account = mongoTemplate.findOne(query, Account.class);
+        return account;
+    }
+
 }

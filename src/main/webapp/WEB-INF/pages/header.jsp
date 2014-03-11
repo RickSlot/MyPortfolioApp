@@ -8,13 +8,13 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/signup">Sign Up</a>
+                        <a href="/account/">Show Profile</a>
                     </li>
                     <li>
-                        <a href="/project/createPage">Add Project</a>
+                        <a href="/login">login</a>
                     </li>
                     <li>
-                        <a href="/account/rick">Show Profile</a>
+                        <a href="/j_spring_security_logout">logout</a>
                     </li>
                 </ul>
             </nav>

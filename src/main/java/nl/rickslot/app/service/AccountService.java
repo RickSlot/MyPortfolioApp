@@ -8,4 +8,6 @@ import nl.rickslot.app.model.Account;
 public interface AccountService {
 
     boolean save(Account account);
+
+    Account findByUsername(String username);
 }
