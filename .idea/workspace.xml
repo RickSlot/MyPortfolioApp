@@ -101,93 +101,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="7" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-15.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="625" selection-end="750" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createProject.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="49" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-15.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="35" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="86" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-3.772152">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="12" selection-start="775" selection-end="775" vertical-scroll-proportion="0.48979592">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="account.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="30" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-19.708334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.25">
+            <state line="43" column="105" selection-start="2585" selection-end="2585" vertical-scroll-proportion="0.6530612">
               <folding />
             </state>
           </provider>
@@ -211,7 +128,6 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" />
@@ -219,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
       </list>
     </option>
   </component>
@@ -1043,67 +960,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="30" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-19.708334">
+        <state line="13" column="69" selection-start="542" selection-end="542" vertical-scroll-proportion="0.26530612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="625" selection-end="750" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="49" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-15.625">
+        <state line="24" column="86" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.5147059">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+        <state line="8" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.15810277">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+        <state line="14" column="35" selection-start="403" selection-end="403" vertical-scroll-proportion="0.27667984">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="86" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-3.772152">
+        <state line="15" column="19" selection-start="312" selection-end="312" vertical-scroll-proportion="0.23715416">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="775" selection-end="775" vertical-scroll-proportion="0.48979592">
+        <state line="25" column="49" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.5102041">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="625" selection-end="750" vertical-scroll-proportion="0.3952569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.48979592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="105" selection-start="2585" selection-end="2585" vertical-scroll-proportion="0.6530612">
           <folding />
         </state>
       </provider>

@@ -41,7 +41,7 @@
                 ere is all your information!Here is all your information!Here is all your information!Here is all your
                 ere is all your information!Here is all your information!Here is all your information!Here is all your
                 ere is all your information!Here is all your information!Here is all your information!Here is all your
-                ere is all your information!Here is all your information!Here is all your information!Here is all your</p>
+                ere is all your information!Here is all your information!Here is all your information!Her is all your</p>
         </div>
     </div>
     <div class="row">
