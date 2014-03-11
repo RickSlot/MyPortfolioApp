@@ -27,9 +27,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider{
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         Account  account = accountService.findByUsername(authentication.getName());
         if(account.getPassword().equals(authentication.getCredentials().toString())){
-            List<GrantedAuthority> grantedAuths = new ArrayList<>();
-            grantedAuths.add(new SimpleGrantedAuthority("ROLE_USER"));
-            Authentication auth = new UsernamePasswordAuthenticationToken(account.getUsername(), account.getPassword(), grantedAuths);
+            Authentication auth = new UsernamePasswordAuthenticationToken(account.getUsername(), account.getPassword(), account.getAuthorities());
             return auth;
         }
         return null;
