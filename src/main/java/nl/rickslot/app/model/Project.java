@@ -12,9 +12,12 @@ import java.util.List;
 public class Project {
     String id;
     String ownerUsername;
+    String name;
     String company;
+    String category;
     List<String> collaboratorUsernames = new ArrayList<>();
     String description;
+    String summary;
     List<Byte[]> imagesBytes = new ArrayList<>();
 
     public String getId() {
@@ -47,5 +50,37 @@ public class Project {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public List<String> getCollaboratorUsernames() {
+        return collaboratorUsernames;
+    }
+
+    public void setCollaboratorUsernames(List<String> collaboratorUsernames) {
+        this.collaboratorUsernames = collaboratorUsernames;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public List<Byte[]> getImagesBytes() {
+        return imagesBytes;
+    }
+
+    public void setImagesBytes(List<Byte[]> imagesBytes) {
+        this.imagesBytes = imagesBytes;
     }
 }

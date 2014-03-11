@@ -20,4 +20,9 @@ public class IndexController {
         view.setViewName("home");
         return view;
     }
+
+    @RequestMapping(value = "signup")
+    public String signup(RedirectAttributes attributes){
+        return "signup";
+    }
 }

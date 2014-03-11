@@ -13,6 +13,7 @@ public class Account {
     String firstName;
     String lastName;
     String password;
+    Byte pictureBytes[];
 
     public String getUsername() {
         return username;
@@ -44,5 +45,13 @@ public class Account {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Byte[] getPictureBytes() {
+        return pictureBytes;
+    }
+
+    public void setPictureBytes(Byte[] pictureBytes) {
+        this.pictureBytes = pictureBytes;
     }
 }

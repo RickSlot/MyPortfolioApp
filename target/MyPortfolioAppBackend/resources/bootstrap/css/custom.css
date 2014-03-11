@@ -1,0 +1,41 @@
+body {
+    background-color: gainsboro;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eeeeee;
+
+}
+
+footer p {
+    float: right;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    font-size: 1.7em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 9px;
+    font-weight: bold;
+    line-height: 1;
+}
+#logo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.top-buffer {
+    margin-top:20px;
+}
+

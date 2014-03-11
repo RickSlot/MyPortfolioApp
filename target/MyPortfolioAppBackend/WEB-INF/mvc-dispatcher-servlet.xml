@@ -8,15 +8,15 @@
 
     <context:component-scan base-package="nl.rickslot.app"/>
 
-    <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager"/>
-    <bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
-        <!-- Turn off working out content type based on URL file extension, should fall back to looking at the Accept headers -->
-        <property name="favorPathExtension" value="false" />
-    </bean>
-
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+
+
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler />
+    <mvc:resources mapping="/css/**" location="/resources/bootstrap/css/" />
 
 </beans>

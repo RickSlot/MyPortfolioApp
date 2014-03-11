@@ -1,6 +1,7 @@
 package nl.rickslot.app.controller;
 
 import nl.rickslot.app.model.Account;
+import nl.rickslot.app.model.Biography;
 import nl.rickslot.app.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,7 +21,7 @@ public class AccountController {
     AccountService accountService;
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public ModelAndView save(@RequestBody Account account) {
+    public ModelAndView createAccount(@RequestBody Account account) {
         ModelAndView view = new ModelAndView();
 
         if(accountService.save(account)){
@@ -34,13 +35,33 @@ public class AccountController {
     }
 
     @RequestMapping(value = "/find")
-    public ModelAndView find() {
+    public ModelAndView findAccount() {
         ModelAndView view = new ModelAndView();
         Account account = new Account();
         account.setFirstName("RickaG");
         account.setLastName("SlotaG");
         account.setUsername("rickslot@live.nl");
         view.addObject("account", account);
+        view.setViewName("account");
+        return view;
+    }
+
+    @RequestMapping(value = "/rick")
+    public ModelAndView showAccountHomePage() {
+        ModelAndView view = new ModelAndView();
+
+        Account account = new Account();
+        account.setFirstName("RickaG");
+        account.setLastName("SlotaG");
+        account.setUsername("rickslot@live.nl");
+
+        Biography biography = new Biography();
+        biography.setText("This is my first portfolio. i would like to thank everyone for making this" +
+                "biography possible. without the help of ruby i couldnt have achieved this! Chase your dreams," +
+                "to the stars and beyond");
+        view.addObject("biography", biography);
+        view.addObject("account", account);
+
         view.setViewName("account");
         return view;
     }
