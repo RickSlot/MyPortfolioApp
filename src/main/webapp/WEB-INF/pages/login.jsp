@@ -21,8 +21,8 @@
             <input id="name" class="form-control" name="j_username" type="text"><br>
             <label for="password">Password:</label><br>
             <input id="password" class="form-control" name="j_password" type="password"><br>
-            <br><br>
             <button class="btn" name="submit" type="submit" value="submit">Login!</button>
+            <br><br>
         </form>
     </div>
 </div>
