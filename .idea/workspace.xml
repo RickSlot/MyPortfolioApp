@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/HttpErrorController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pageNotFound.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyPortfolioAppBackend.iws" />
@@ -29,13 +21,13 @@
     <file path="/MongoConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393949744984" ignored="false" />
     <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561044455" ignored="false" />
     <file path="/AccountService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394560966408" ignored="false" />
-    <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394626540023" ignored="false" />
-    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394623574175" ignored="false" />
+    <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629682796" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627695156" ignored="false" />
     <file path="/a.dummy" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393950883967" ignored="false" />
     <file path="/WebConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394548602455" ignored="false" />
     <file path="/pom.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394559584660" ignored="false" />
     <file path="/Account.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394575433304" ignored="false" />
-    <file path="/IndexController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394626305453" ignored="false" />
+    <file path="/IndexController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629926018" ignored="false" />
     <file path="/home.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394623480040" ignored="false" />
     <file path="/ApplicationInitializer.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393955253580" ignored="false" />
     <file path="/Initializer.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393955858441" ignored="false" />
@@ -54,7 +46,7 @@
     <file path="/Project.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394555910375" ignored="false" />
     <file path="/ProjectController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394555839009" ignored="false" />
     <file path="/signup.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627517765" ignored="false" />
-    <file path="/header.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627011777" ignored="false" />
+    <file path="/header.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394630078779" ignored="false" />
     <file path="/footer.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394622231599" ignored="false" />
     <file path="/createProject.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627108308" ignored="false" />
     <file path="/spring-security.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394625664573" ignored="false" />
@@ -63,6 +55,8 @@
     <file path="/CustomAuthenticationProvider.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394575438679" ignored="false" />
     <file path="/Role.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394571838166" ignored="false" />
     <file path="/CustomUserDetailsService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394573613762" ignored="false" />
+    <file path="/pageNotFound.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394628812310" ignored="false" />
+    <file path="/HttpErrorController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394630315620" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,10 +117,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="createProject.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="52" selection-start="639" selection-end="639" vertical-scroll-proportion="-8.125">
+            <state line="19" column="63" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,16 +138,16 @@
       <file leaf-file-name="account.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="103" selection-start="654" selection-end="654" vertical-scroll-proportion="-7.5">
+            <state line="12" column="103" selection-start="0" selection-end="3360" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="signup.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="693" selection-end="693" vertical-scroll-proportion="0.4059406">
+            <state line="18" column="21" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,28 +162,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="63" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="59" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.0">
+            <state line="44" column="5" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.8201439">
               <folding />
             </state>
           </provider>
@@ -189,7 +174,34 @@
       <file leaf-file-name="IndexController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="670" selection-end="763" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="24" selection-start="1399" selection-end="1399" vertical-scroll-proportion="-10.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="60" selection-start="989" selection-end="989" vertical-scroll-proportion="-12.625">
               <folding />
             </state>
           </provider>
@@ -214,15 +226,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme2.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" />
@@ -230,6 +235,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/signup.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pageNotFound.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/HttpErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java" />
       </list>
     </option>
   </component>
@@ -911,7 +923,11 @@
       <created>1394575812650</created>
       <updated>1394575812650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="signup works with form validation!">
+      <created>1394627745654</created>
+      <updated>1394627745654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -939,7 +955,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24211651" sideWeight="0.5842217" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18292683" sideWeight="0.6802326" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27833572" sideWeight="0.6802326" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35755813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -990,7 +1006,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bootstrap theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="signup works with form validation!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1009,6 +1025,7 @@
     <MESSAGE value="added custom authentication provider for logins&#10;" />
     <MESSAGE value="little cleanup&#10;" />
     <MESSAGE value="added bootstrap theme" />
+    <MESSAGE value="signup works with form validation!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1018,27 +1035,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4789" column="22" selection-start="102771" selection-end="102771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="8" selection-start="32" selection-end="32" vertical-scroll-proportion="0.040871933">
@@ -1049,41 +1045,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="59" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="850" selection-end="850" vertical-scroll-proportion="0.60336536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1109,9 +1070,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="103" selection-start="654" selection-end="654" vertical-scroll-proportion="-7.5">
+        <state line="18" column="21" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1123,9 +1084,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/signup.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="693" selection-end="693" vertical-scroll-proportion="0.4059406">
+        <state line="12" column="103" selection-start="0" selection-end="3360" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="63" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pageNotFound.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="832" selection-end="832" vertical-scroll-proportion="0.40966922">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="24" selection-start="1399" selection-end="1399" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="60" selection-start="989" selection-end="989" vertical-scroll-proportion="-12.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/HttpErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="210" selection-end="210" vertical-scroll-proportion="0.32374102">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="670" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="5" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.8201439">
           <folding />
         </state>
       </provider>

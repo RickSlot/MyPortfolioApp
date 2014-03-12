@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.security.Principal;
+
 /**
  * @author Rick Slot
  */
@@ -22,19 +24,42 @@ public class AccountController {
     @Autowired
     AccountService accountService;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public ModelAndView showAccountPage() {
+    @RequestMapping(value = "", method = RequestMethod.GET)
+    public ModelAndView showAccountPage(Principal principal) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         ModelAndView view = new ModelAndView();
-        Account account = accountService.findByUsername(auth.getName());
-        view.addObject("account", account);
+        if(principal != null){
+            Account account = accountService.findByUsername(auth.getName());
+            view.addObject("account", account);
 
-        Biography biography = new Biography();
-        biography.setText("This is my first portfolio. i would like to thank everyone for making this" +
-                "biography possible. without the help of ruby i couldnt have achieved this! Chase your dreams," +
-                "to the stars and beyond");
-        view.addObject("biography", biography);
-        view.setViewName("account");
+            Biography biography = new Biography();
+            biography.setText("This is my first portfolio. i would like to thank everyone for making this" +
+                    "biography possible. without the help of ruby i couldnt have achieved this! Chase your dreams," +
+                    "to the stars and beyond");
+            view.addObject("biography", biography);
+            view.setViewName("account");
+            return view;
+        }
+        view.setViewName("redirect:/");
+        return view;
+    }
+
+    @RequestMapping(value = "/{username:.+}", method = RequestMethod.GET)
+    public ModelAndView schowPageForUsername(@PathVariable("username") String username) {
+        Account account = accountService.findByUsername(username);
+        ModelAndView view = new ModelAndView();
+
+        if(account != null){
+            view.addObject("account", account);
+            Biography biography = new Biography();
+            biography.setText("This is my first portfolio. i would like to thank everyone for making this" +
+                    "biography possible. without the help of ruby i couldnt have achieved this! Chase your dreams," +
+                    "to the stars and beyond");
+            view.addObject("biography", biography);
+            view.setViewName("/account");
+            return view;
+        }
+        view.setViewName("/pageNotFound");
         return view;
     }
 
@@ -52,35 +77,4 @@ public class AccountController {
         return view;
     }
 
-    @RequestMapping(value = "/find")
-    public ModelAndView findAccount() {
-        ModelAndView view = new ModelAndView();
-        Account account = new Account();
-        account.setFirstName("RickaG");
-        account.setLastName("SlotaG");
-        account.setUsername("rickslot@live.nl");
-        view.addObject("account", account);
-        view.setViewName("account");
-        return view;
-    }
-
-    @RequestMapping(value = "/rick")
-    public ModelAndView showAccountHomePage() {
-        ModelAndView view = new ModelAndView();
-
-        Account account = new Account();
-        account.setFirstName("RickaG");
-        account.setLastName("SlotaG");
-        account.setUsername("rickslot@live.nl");
-
-        Biography biography = new Biography();
-        biography.setText("This is my first portfolio. i would like to thank everyone for making this" +
-                "biography possible. without the help of ruby i couldnt have achieved this! Chase your dreams," +
-                "to the stars and beyond");
-        view.addObject("biography", biography);
-        view.addObject("account", account);
-
-        view.setViewName("account");
-        return view;
-    }
 }
