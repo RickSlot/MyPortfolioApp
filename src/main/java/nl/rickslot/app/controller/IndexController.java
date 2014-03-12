@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.security.Principal;
+
 /**
  * @author Rick Slot
  */
@@ -12,10 +14,12 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @RequestMapping("/")
 public class IndexController {
 
-    @RequestMapping(value = "")
-    public ModelAndView home(RedirectAttributes attributes, ModelAndView view){
-        view.setViewName("home");
-        return view;
+    @RequestMapping(value = {"", "home"})
+    public String home(Principal principal){
+        if(principal != null){
+            return "redirect:/account";
+        }
+        return "home";
     }
 
     @RequestMapping(value = "signup")
@@ -24,8 +28,12 @@ public class IndexController {
     }
 
     @RequestMapping(value = "login")
-    public String login(){
-        return "login";
+    public String login(Principal principal){
+        if(principal == null){
+            return "login";
+        }
+        return "redirect:/account";
+
     }
 
     @RequestMapping(value = "logout")
