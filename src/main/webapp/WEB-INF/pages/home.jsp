@@ -5,15 +5,14 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../css/custom.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/bootstrap-theme2.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/custom.css" media="screen">
 </head>
 <body>
 <div class="container">
     <%@ include file="header.jsp" %>
     <div class="col-lg-10 col-lg-offset-1 jumbotron">
-        <h2>MyPortfolioApp <small>A portfolio for everyone!</small></h2>
+        <h1>MyPortfolioApp <br><small>A portfolio for everyone!</small></h1>
         <p>Welcome to the MyPortfolioApp website. On this site, you can create your very own portfolio. The only thing you need is an account
         and you can start creating. In less than 15 minutes you can build a good looking simple portfolio. Many people need to make a portfolio for
         school assignments. MyPortfolioApp is the solution!</p>

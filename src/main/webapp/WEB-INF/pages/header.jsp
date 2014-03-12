@@ -23,3 +23,10 @@
 
 </header>
 <br><br><br>
+<c:if test="${message_error != null}">
+    <div class="col-lg-4 col-lg-offset-4 alert alert-danger">${message_error}</div>
+</c:if>
+
+<c:if test="${message_succes != null}">
+    <div class="col-lg-4 col-lg-offset-4 alert alert-success">${message_succes}</div>
+</c:if>

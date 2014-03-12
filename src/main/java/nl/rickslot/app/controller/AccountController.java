@@ -39,16 +39,16 @@ public class AccountController {
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public ModelAndView createAccount(@RequestBody Account account) {
+    public ModelAndView createAccount(Account account, RedirectAttributes redirectAttributes) {
         ModelAndView view = new ModelAndView();
 
         if(accountService.save(account)){
-            view.addObject("message", "account is created!");
-            view.setViewName("home");
+            redirectAttributes.addFlashAttribute("message_succes", "Account is created!");
+            view.setViewName("redirect:/");
             return view;
         }
-        view.addObject("message", "Something went wrong creating the account!");
-        view.setViewName("/account");
+        redirectAttributes.addFlashAttribute("message_error", "Username already exists!");
+        view.setViewName("redirect:/signup");
         return view;
     }
 
