@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyPortfolioAppBackend.iws" />
@@ -16,7 +16,7 @@
     <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561044455" ignored="false" />
     <file path="/AccountService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394560966408" ignored="false" />
     <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629682796" ignored="false" />
-    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991623976" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991789688" ignored="false" />
     <file path="/a.dummy" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979218335" ignored="false" />
     <file path="/WebConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394548602455" ignored="false" />
     <file path="/pom.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896087119" ignored="false" />
@@ -60,7 +60,7 @@
     <file path="/createPicture.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394988177303" ignored="false" />
     <file path="/PictureService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394895860492" ignored="false" />
     <file path="/PictureServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979999616" ignored="false" />
-    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991704100" ignored="false" />
+    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991954986" ignored="false" />
     <file path="/log4j.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979355468" ignored="false" />
     <file path="/project.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984633298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -171,13 +171,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PictureController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.7680764">
+            <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.24556616">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java" />
@@ -217,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -985,7 +994,11 @@
       <created>1394991652767</created>
       <updated>1394991652767</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added gitignore">
+      <created>1394991792463</created>
+      <updated>1394991792463</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1064,7 +1077,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed navbar, fixed using images in project description" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1088,6 +1101,7 @@
     <MESSAGE value="changed navbar to role based menu." />
     <MESSAGE value="added picture repository and controllor. pictures can be uploaded and shown." />
     <MESSAGE value="fixed navbar, fixed using images in project description" />
+    <MESSAGE value="added gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1097,13 +1111,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="59" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
@@ -1206,10 +1213,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.7680764">
+        <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.24556616">
+          <folding />
         </state>
       </provider>
     </entry>
