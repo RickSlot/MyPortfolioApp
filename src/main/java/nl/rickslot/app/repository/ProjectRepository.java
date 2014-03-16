@@ -4,6 +4,8 @@ import nl.rickslot.app.model.Project;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Component;
 
 /**
@@ -25,4 +27,8 @@ public class ProjectRepository {
     }
 
 
+    public Project findProjectById(String projectId) {
+        Query query = new Query(Criteria.where("id").is(projectId));
+        return mongoTemplate.findOne(query, Project.class);
+    }
 }

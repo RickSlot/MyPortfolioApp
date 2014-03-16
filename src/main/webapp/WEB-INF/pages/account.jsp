@@ -8,13 +8,15 @@
 
 <html lang="en">
 <head>
+    <title>MyPortFolioApp | Profile ${account.username}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/bootstrap-theme2.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/custom.css" media="screen">
+
 </head>
 <body>
+<%@ include file="header.jsp" %>
 <div class="container">
-    <%@ include file="header.jsp" %>
     <div class="row">
         <div class="col-lg-3 top-buffer panel panel-primary">
             <div class="panel-heading">
@@ -34,7 +36,20 @@
 
 
         </div>
+
+
         <div class="col-lg-8 col-lg-offset-1 top-buffer panel panel-primary">
+            <div class="panel-heading">
+                <h1 class="panel-title">Projects</h1>
+            </div>
+            <div class="panel-body">
+                You can find all your projects here!
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 top-buffer panel panel-primary">
             <div class="panel-heading">
                 <h2 class="panel-title">CV</h2>
             </div>
@@ -49,17 +64,6 @@
                     ere is all your information!Here is all your information!Here is all your information!Here is all your
                     ere is all your information!Here is all your information!Here is all your information!Her is all your</p>
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 top-buffer panel panel-primary">
-            <div class="panel-heading">
-                <h1 class="panel-title">Projects</h1>
-            </div>
-            <div class="panel-body">
-                You can find all your projects here!
-            </div>
-
         </div>
     </div>
 </div>

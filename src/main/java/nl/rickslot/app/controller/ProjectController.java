@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -38,6 +39,19 @@ public class ProjectController {
         }
         attributes.addFlashAttribute("message_error", "Something went wrong with creating the project.");
         view.setViewName("redirect:/project/createPage");
+        return view;
+    }
+
+    @RequestMapping(value = "/show/{projectId}")
+    public ModelAndView showProject(@PathVariable("projectId") String projectId){
+        ModelAndView view = new ModelAndView();
+        Project project = projectService.findProjectById(projectId);
+        if(project != null){
+            view.addObject("project", projectService.findProjectById(projectId));
+            view.setViewName("project");
+            return view;
+        }
+        view.setViewName("/error/404");
         return view;
     }
 }

@@ -9,4 +9,5 @@ public interface ProjectService {
 
     boolean saveProject(Project project);
 
+    Project findProjectById(String projectId);
 }

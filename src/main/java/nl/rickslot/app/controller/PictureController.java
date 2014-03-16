@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**
  * @author Rick Slot
@@ -22,9 +23,10 @@ public class PictureController {
     PictureService pictureService;
 
     @RequestMapping(value = "/create")
-    public String createPicture(Picture picture){
+    public String createPicture(Picture picture, RedirectAttributes redirectAttributes){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         pictureService.createPicture(picture, authentication.getName());
+        redirectAttributes.addFlashAttribute("message_success", "Image is uploaded!");
         return "redirect:/";
     }
 

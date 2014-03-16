@@ -2,34 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Picture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/PictureRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/log4j.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/config/MongoConfig.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/config/MongoConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyPortfolioAppBackend.iml" afterPath="$PROJECT_DIR$/MyPortfolioAppBackend.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyPortfolioAppBackend_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyPortfolioAppBackend_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -44,13 +29,13 @@
     <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561044455" ignored="false" />
     <file path="/AccountService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394560966408" ignored="false" />
     <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629682796" ignored="false" />
-    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979065579" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394980270308" ignored="false" />
     <file path="/a.dummy" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979218335" ignored="false" />
     <file path="/WebConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394548602455" ignored="false" />
     <file path="/pom.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896087119" ignored="false" />
     <file path="/Account.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394575433304" ignored="false" />
     <file path="/IndexController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394632315351" ignored="false" />
-    <file path="/home.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394623480040" ignored="false" />
+    <file path="/home.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991340390" ignored="false" />
     <file path="/ApplicationInitializer.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393955253580" ignored="false" />
     <file path="/Initializer.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393955858441" ignored="false" />
     <file path="/acclj.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393957484527" ignored="false" />
@@ -62,16 +47,16 @@
     <file path="/AppUserDetailService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393973782886" ignored="false" />
     <file path="/fragment.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394894992882" ignored="false" />
     <file path="/profile.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394547136768" ignored="false" />
-    <file path="/account.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394623453666" ignored="false" />
+    <file path="/account.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394990999180" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627090336" ignored="false" />
     <file path="/custom.css" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394555543943" ignored="false" />
     <file path="/Project.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394722801401" ignored="false" />
-    <file path="/ProjectController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394720560228" ignored="false" />
+    <file path="/ProjectController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984122861" ignored="false" />
     <file path="/signup.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627517765" ignored="false" />
-    <file path="/header.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896334220" ignored="false" />
+    <file path="/header.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991313093" ignored="false" />
     <file path="/footer.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394622231599" ignored="false" />
     <file path="/createProject.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394721888250" ignored="false" />
-    <file path="/spring-security.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979626626" ignored="false" />
+    <file path="/spring-security.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394989477216" ignored="false" />
     <file path="/a.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394559662214" ignored="false" />
     <file path="/login.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394719076598" ignored="false" />
     <file path="/CustomAuthenticationProvider.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896401582" ignored="false" />
@@ -79,17 +64,18 @@
     <file path="/CustomUserDetailsService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394573613762" ignored="false" />
     <file path="/pageNotFound.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394628812310" ignored="false" />
     <file path="/HttpErrorController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394630315620" ignored="false" />
-    <file path="/ProjectRepository.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394719921463" ignored="false" />
-    <file path="/ProjectService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394720040076" ignored="false" />
-    <file path="/ProjectServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394723295664" ignored="false" />
+    <file path="/ProjectRepository.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984026274" ignored="false" />
+    <file path="/ProjectService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394983928893" ignored="false" />
+    <file path="/ProjectServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394986350083" ignored="false" />
     <file path="/Picture.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394894522428" ignored="false" />
-    <file path="/PictureController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394980210290" ignored="false" />
+    <file path="/PictureController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394988467366" ignored="false" />
     <file path="/PictureRepository.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896142184" ignored="false" />
-    <file path="/createPicture.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394894886110" ignored="false" />
+    <file path="/createPicture.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394988177303" ignored="false" />
     <file path="/PictureService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394895860492" ignored="false" />
     <file path="/PictureServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979999616" ignored="false" />
-    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394980215794" ignored="false" />
+    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991364091" ignored="false" />
     <file path="/log4j.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979355468" ignored="false" />
+    <file path="/project.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984633298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,23 +127,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" line="34" class="nl.rickslot.app.controller.ProjectController" package="nl.rickslot.app.controller">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -167,19 +137,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Picture.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Picture.java">
+      <file leaf-file-name="ProjectServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="38" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.6280992">
+            <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,10 +148,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java">
+      <file leaf-file-name="project.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="-0.4556962">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createProject.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createPicture.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -199,17 +178,19 @@
       <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="66" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+            <state line="19" column="54" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureServiceImpl.java">
+      <file leaf-file-name="PictureController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="35" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="33" column="38" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.6657572">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,22 +214,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/config/MongoConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Picture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/PictureRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
       </list>
     </option>
   </component>
@@ -308,7 +289,7 @@
     <option name="x" value="-238" />
     <option name="y" value="-1058" />
     <option name="width" value="1919" />
-    <option name="height" value="1058" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -418,6 +399,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -449,6 +460,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -915,19 +990,23 @@
       <created>1394633459332</created>
       <updated>1394633459332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added picture repository and controllor. pictures can be uploaded and shown.">
+      <created>1394980285992</created>
+      <updated>1394980285992</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-238" y="-1058" width="1919" height="1058" extended-state="0" />
-    <editor active="false" />
+    <frame x="-238" y="-1058" width="1919" height="988" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12327189" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -943,7 +1022,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24211651" sideWeight="0.5842217" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2071543" sideWeight="0.6748401" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2071543" sideWeight="0.8767281" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35755813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -994,7 +1073,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed navbar to role based menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="added picture repository and controllor. pictures can be uploaded and shown." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1016,6 +1095,7 @@
     <MESSAGE value="signup works with form validation!" />
     <MESSAGE value="added page not found page" />
     <MESSAGE value="changed navbar to role based menu." />
+    <MESSAGE value="added picture repository and controllor. pictures can be uploaded and shown." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1025,123 +1105,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/AccountRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="805" selection-end="870" vertical-scroll-proportion="0.67264575">
+        <state line="11" column="46" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="59" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.8886256">
+        <state line="31" column="59" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/HttpErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="887" selection-end="887" vertical-scroll-proportion="0.2264574">
+        <state line="41" column="20" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="873" selection-end="873" vertical-scroll-proportion="0.27734977">
+        <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="461" selection-end="472" vertical-scroll-proportion="0.42056075">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/PictureRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="893" selection-end="893" vertical-scroll-proportion="0.5438067">
+        <state line="25" column="73" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.7338552">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="26" selection-start="4466" selection-end="4466" vertical-scroll-proportion="0.29758307">
+        <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="-0.4556962">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/log4j.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="5659" selection-end="5659" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.0.RELEASE/spring-webmvc-3.2.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.0.RELEASE/spring-webmvc-3.2.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="927" column="0" selection-start="41728" selection-end="41728" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+        <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+        <state line="19" column="54" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/AccountController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+        <state line="7" column="89" selection-start="316" selection-end="316" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+        <state line="70" column="7" selection-start="3415" selection-end="3415" vertical-scroll-proportion="1.6055046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="92" selection-start="567" selection-end="567" vertical-scroll-proportion="0.19040902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="99" selection-start="313" selection-end="313" vertical-scroll-proportion="0.10578279">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.6280992">
+        <state line="33" column="38" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.6657572">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

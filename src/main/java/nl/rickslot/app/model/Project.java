@@ -19,8 +19,6 @@ public class Project {
     List<String> collaboratorUsernames = new ArrayList<>();
     String description;
     String summary;
-    byte[] imageBytes;
-    MultipartFile pictureFile;
 
     public String getId() {
         return id;
@@ -86,15 +84,4 @@ public class Project {
         this.name = name;
     }
 
-    public void setImageBytes(byte[] imageBytes) {
-        this.imageBytes = imageBytes;
-    }
-
-    public MultipartFile getPictureFile() {
-        return pictureFile;
-    }
-
-    public void setPictureFile(MultipartFile pictureFile) {
-        this.pictureFile = pictureFile;
-    }
 }
