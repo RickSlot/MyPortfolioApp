@@ -17,4 +17,6 @@
     <mvc:default-servlet-handler />
     <mvc:resources mapping="/resources/**" location="/resources/" />
 
+    <bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+
 </beans>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/AccountServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyPortfolioAppBackend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,14 +17,14 @@
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393945077171" ignored="false" />
     <file path="/AccountRepository.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561033672" ignored="false" />
     <file path="/MongoConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393949744984" ignored="false" />
-    <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561044455" ignored="false" />
+    <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394999650771" ignored="false" />
     <file path="/AccountService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394560966408" ignored="false" />
     <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629682796" ignored="false" />
-    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992161247" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394997972073" ignored="false" />
     <file path="/a.dummy" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979218335" ignored="false" />
     <file path="/WebConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394548602455" ignored="false" />
     <file path="/pom.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896087119" ignored="false" />
-    <file path="/Account.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394575433304" ignored="false" />
+    <file path="/Account.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394998987047" ignored="false" />
     <file path="/IndexController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394632315351" ignored="false" />
     <file path="/home.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991340390" ignored="false" />
     <file path="/ApplicationInitializer.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393955253580" ignored="false" />
@@ -33,20 +39,20 @@
     <file path="/fragment.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394894992882" ignored="false" />
     <file path="/profile.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394547136768" ignored="false" />
     <file path="/account.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394990999180" ignored="false" />
-    <file path="/mvc-dispatcher-servlet.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627090336" ignored="false" />
+    <file path="/mvc-dispatcher-servlet.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394998076442" ignored="false" />
     <file path="/custom.css" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394555543943" ignored="false" />
     <file path="/Project.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394722801401" ignored="false" />
     <file path="/ProjectController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984122861" ignored="false" />
     <file path="/signup.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394627517765" ignored="false" />
-    <file path="/header.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991313093" ignored="false" />
+    <file path="/header.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394999834328" ignored="false" />
     <file path="/footer.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394622231599" ignored="false" />
     <file path="/createProject.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394721888250" ignored="false" />
-    <file path="/spring-security.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394989477216" ignored="false" />
+    <file path="/spring-security.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394998541214" ignored="false" />
     <file path="/a.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394559662214" ignored="false" />
     <file path="/login.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394719076598" ignored="false" />
-    <file path="/CustomAuthenticationProvider.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896401582" ignored="false" />
+    <file path="/CustomAuthenticationProvider.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394999718351" ignored="false" />
     <file path="/Role.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394571838166" ignored="false" />
-    <file path="/CustomUserDetailsService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394573613762" ignored="false" />
+    <file path="/CustomUserDetailsService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394998061724" ignored="false" />
     <file path="/pageNotFound.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394628812310" ignored="false" />
     <file path="/HttpErrorController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394630315620" ignored="false" />
     <file path="/ProjectRepository.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984026274" ignored="false" />
@@ -58,10 +64,10 @@
     <file path="/createPicture.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394988177303" ignored="false" />
     <file path="/PictureService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394895860492" ignored="false" />
     <file path="/PictureServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979999616" ignored="false" />
-    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992165445" ignored="false" />
+    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394999855428" ignored="false" />
     <file path="/log4j.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979355468" ignored="false" />
     <file path="/project.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984633298" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992165445" ignored="false" />
+    <file path="$USER_HOME$/Documents/Projects/brightcenter/web/src/main/java/nl/trifork/brightcenter/service/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394998705132" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,19 +129,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProjectServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="project.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -162,16 +159,36 @@
       <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
+            <state line="21" column="29" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
+      <file leaf-file-name="CustomAuthenticationProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.49881235">
+            <state line="33" column="104" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="43" selection-start="594" selection-end="594" vertical-scroll-proportion="0.2713816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="79" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,22 +213,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/PictureServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/account.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp" />
       </list>
     </option>
   </component>
@@ -271,7 +288,7 @@
     <option name="x" value="-238" />
     <option name="y" value="-1058" />
     <option name="width" value="1919" />
-    <option name="height" value="988" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -301,33 +318,31 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -337,11 +352,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -363,11 +378,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -393,11 +408,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -412,112 +427,14 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -543,11 +460,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -573,11 +490,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -603,11 +520,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -626,18 +543,14 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
+              <option name="myItemId" value="MyPortfolioApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -661,38 +574,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPortfolioAppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -757,19 +642,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -796,6 +668,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -994,21 +879,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-238" y="-1058" width="1919" height="988" extended-state="0" />
-    <editor active="true" />
+    <frame x="-238" y="-1058" width="1919" height="1058" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12318029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29637527" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1017,13 +903,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24211651" sideWeight="0.5842217" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2071543" sideWeight="0.8767281" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2071543" sideWeight="0.7036247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35755813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1103,69 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/repository/ProjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="59" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/HttpErrorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="20" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="461" selection-end="472" vertical-scroll-proportion="0.42056075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="73" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.7338552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="89" selection-start="316" selection-end="316" vertical-scroll-proportion="-4.375">
@@ -1194,23 +1016,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="99" selection-start="313" selection-end="313" vertical-scroll-proportion="0.10578279">
+        <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.21377672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.21377672">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.49881235">
+        <state line="25" column="46" selection-start="921" selection-end="921" vertical-scroll-proportion="0.36945814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="78" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.47285464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="29" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="13" selection-start="1755" selection-end="1755" vertical-scroll-proportion="1.613924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="79" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="97" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.46042004">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/security/CustomAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="104" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="594" selection-end="594" vertical-scroll-proportion="0.2713816">
           <folding />
         </state>
       </provider>

@@ -74,6 +74,7 @@ public class Account implements UserDetails{
         return grantedAuths;
     }
 
+    @Override
     public String getPassword() {
         return password;
     }

@@ -9,25 +9,29 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Rick Slot
- */
+* @author Rick Slot
+*/
 @Component
 public class CustomAuthenticationProvider implements AuthenticationProvider{
 
     @Autowired
     AccountService accountService;
 
+    @Autowired
+    PasswordEncoder passwordEncoder;
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         Account  account = accountService.findByUsername(authentication.getName());
         if(account != null){
-            if(account.getPassword().equals(authentication.getCredentials().toString())){
+            if(passwordEncoder.matches(authentication.getCredentials().toString(), account.getPassword())){
                 Authentication auth = new UsernamePasswordAuthenticationToken(account.getUsername(), account.getPassword(), account.getAuthorities());
                 return auth;
             }

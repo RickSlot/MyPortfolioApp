@@ -20,4 +20,5 @@
     <authentication-manager erase-credentials="false">
         <authentication-provider ref="customAuthenticationProvider"/>
     </authentication-manager>
+
 </beans:beans>
