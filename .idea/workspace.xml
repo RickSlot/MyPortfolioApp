@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="" />
+    <list default="true" readonly="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    </list>
     <ignored path="MyPortfolioAppBackend.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Biography.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393944701663" ignored="false" />
     <file path="/Cv.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393944772218" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393944951372" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393945077171" ignored="false" />
     <file path="/AccountRepository.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561033672" ignored="false" />
     <file path="/MongoConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393949744984" ignored="false" />
     <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561044455" ignored="false" />
     <file path="/AccountService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394560966408" ignored="false" />
     <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629682796" ignored="false" />
-    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991956237" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992161247" ignored="false" />
     <file path="/a.dummy" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979218335" ignored="false" />
     <file path="/WebConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394548602455" ignored="false" />
     <file path="/pom.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896087119" ignored="false" />
@@ -57,10 +58,10 @@
     <file path="/createPicture.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394988177303" ignored="false" />
     <file path="/PictureService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394895860492" ignored="false" />
     <file path="/PictureServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979999616" ignored="false" />
-    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992023635" ignored="false" />
+    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992165445" ignored="false" />
     <file path="/log4j.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979355468" ignored="false" />
     <file path="/project.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984633298" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992023635" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992165445" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,9 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +135,7 @@
       <file leaf-file-name="project.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="-0.4556962">
+            <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +144,7 @@
       <file leaf-file-name="createProject.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.25">
+            <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,7 +153,7 @@
       <file leaf-file-name="createPicture.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.0">
+            <state line="8" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,21 +168,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PictureController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.24556616">
+            <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.49881235">
               <folding />
             </state>
           </provider>
@@ -313,6 +301,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -703,8 +693,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,6 +757,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -795,19 +796,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -948,7 +936,9 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1012,14 +1002,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12327189" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12318029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1034,6 +1023,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1137,9 +1127,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/service/ProjectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="5" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,14 +1147,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="-0.4556962">
+        <state line="10" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createProject.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.25">
+        <state line="10" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1194,7 +1182,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPicture.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.0">
+        <state line="8" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1213,18 +1201,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.21377672">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rickslot/app/controller/PictureController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.24556616">
+        <state line="38" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.49881235">
           <folding />
         </state>
       </provider>
