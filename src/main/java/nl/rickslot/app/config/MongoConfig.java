@@ -8,6 +8,8 @@ import org.springframework.data.mongodb.MongoDbFactory;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.http.MediaType;
+import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 
 /**
@@ -35,5 +37,12 @@ public class MongoConfig {
         MongoTemplate mongoTemplate = new MongoTemplate(mongoDbFactory());
         return mongoTemplate;
 
+    }
+
+    @Bean
+    public MultipartResolver multipartResolver() {
+        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
+        multipartResolver.setMaxUploadSize(-1);         // -1 = unlimited upload size
+        return multipartResolver;
     }
 }

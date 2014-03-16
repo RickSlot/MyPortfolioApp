@@ -7,8 +7,10 @@
 	http://www.springframework.org/schema/security/spring-security-3.2.xsd">
 
     <http auto-config="true" use-expressions="true">
-        <intercept-url pattern="/project/" access="ROLE_USER" />
-        <intercept-url pattern="/cv/" access="ROLE_USER" />
+        <intercept-url pattern="/project/" access="hasRole('ROLE_USER')" />
+        <intercept-url pattern="/picture/create" access="hasRole('ROLE_USER')" />
+        <intercept-url pattern="/picture/createPage" access="hasRole('ROLE_USER')" />
+        <intercept-url pattern="/cv/" access="hasRole('ROLE_USER')" />
         <form-login login-page="/login" default-target-url="/account/"
                     authentication-failure-url="/login?error" />
         <logout logout-success-url="/?logout" />

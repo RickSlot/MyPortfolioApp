@@ -1,14 +1,12 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=US-ASCII" pageEncoding="US-ASCII" %>
-
-
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">
 <head>
-    <title>Create a Project</title>
+    <title>Create Picture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/bootstrap-theme2.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/custom.css" media="screen">
@@ -19,24 +17,16 @@
 
     <div class="col-lg-6 col-lg-offset-3 border panel panel-primary">
         <div class="panel-heading">
-            <h2 class="panel-title">Create Project</h2>
+            <h2 class="panel-title">Create Picture</h2>
         </div>
 
         <div class="panel-body">
-            <form form action="/project/create" method="POST" enctype="multipart/form-data"
-                  name="project">
+            <form form action="/picture/create" method="POST" enctype="multipart/form-data"
+                  name="picture">
                 <label for="name">Name:</label><br>
                 <input id="name" class="form-control" name="name" type="text"><br>
-                <label for="company">Company:</label><br>
-                <input id="company" class="form-control" name="company" type="text"><br>
-                <label for="text">category:</label><br>
-                <input type="text" class="form-control" name="category" id="category">
-                <label for="description">Summary:</label><br>
-                <input type="text" class="form-control" name="summary" id="description">
-                <label for="text">text:</label><br>
-                <textarea class="form-control" name="description" id="text"></textarea><br>
-                <label for="pictureFile">Picture:</label>
-                <input type="file" name="pictureFile" id="pictureFile">
+                <label for="file">Picture:</label>
+                <input type="file" name="file" id="file">
 
                 <button class="btn btn-md btn-primary">Create!</button>
                 <br><br>

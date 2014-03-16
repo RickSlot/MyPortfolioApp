@@ -19,6 +19,24 @@
         school assignments. MyPortfolioApp is the solution!</p>
         <a class="btn btn-lg btn-primary" href="/signup">Sign up now!</a>
     </div>
+
+    <div class="col-lg-6 col-lg-offset-3 panel panel-primary">
+        <div class="panel-heading">
+            <h2 class="panel-title">Login</h2>
+        </div>
+
+        <div class="panel-body">
+            <form action="/j_spring_security_check" method='POST'/>
+            <label for="name">Username:</label><br>
+            <input id="name" class="form-control" name="j_username" type="text"><br>
+            <label for="password">Password:</label><br>
+            <input id="password" class="form-control" name="j_password" type="password"><br>
+            <button class="btn btn-primary" name="submit" type="submit" value="submit">Login!</button>
+            <br><br>
+            </form>
+        </div>
+
+    </div>
 </div>
 <%@include file="footer.jsp"%>
 </body>

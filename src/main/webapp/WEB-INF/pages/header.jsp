@@ -9,6 +9,15 @@
                         <li>
                             <a href="/account/">Show Profile</a>
                         </li>
+
+                        <li>
+                            <a href="/project/createPage">New Project</a>
+                        </li>
+
+                        <li>
+                            <a href="/picture/createPage">New Picture</a>
+                        </li>
+
                         <li>
                             <a href="/logout">logout</a>
                         </li>
@@ -36,6 +45,10 @@
 
 <c:if test="${param.logout != null}">
     <div class="col-lg-4 col-lg-offset-4 alert alert-success">Succesfully logged out!</div>
+</c:if>
+
+<c:if test="${param.error != null}">
+    <div class="col-lg-4 col-lg-offset-4 alert alert-danger">Something went wrong with logging in :(</div>
 </c:if>
 
 <c:if test="${message_succes != null}">

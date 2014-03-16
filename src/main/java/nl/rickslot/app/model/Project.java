@@ -1,6 +1,7 @@
 package nl.rickslot.app.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +19,8 @@ public class Project {
     List<String> collaboratorUsernames = new ArrayList<>();
     String description;
     String summary;
-    List<Byte[]> imagesBytes = new ArrayList<>();
+    byte[] imageBytes;
+    MultipartFile pictureFile;
 
     public String getId() {
         return id;
@@ -76,11 +78,23 @@ public class Project {
         this.summary = summary;
     }
 
-    public List<Byte[]> getImagesBytes() {
-        return imagesBytes;
+    public String getName() {
+        return name;
     }
 
-    public void setImagesBytes(List<Byte[]> imagesBytes) {
-        this.imagesBytes = imagesBytes;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setImageBytes(byte[] imageBytes) {
+        this.imageBytes = imageBytes;
+    }
+
+    public MultipartFile getPictureFile() {
+        return pictureFile;
+    }
+
+    public void setPictureFile(MultipartFile pictureFile) {
+        this.pictureFile = pictureFile;
     }
 }

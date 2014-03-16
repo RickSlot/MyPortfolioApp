@@ -26,9 +26,11 @@ public class CustomAuthenticationProvider implements AuthenticationProvider{
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         Account  account = accountService.findByUsername(authentication.getName());
-        if(account.getPassword().equals(authentication.getCredentials().toString())){
-            Authentication auth = new UsernamePasswordAuthenticationToken(account.getUsername(), account.getPassword(), account.getAuthorities());
-            return auth;
+        if(account != null){
+            if(account.getPassword().equals(authentication.getCredentials().toString())){
+                Authentication auth = new UsernamePasswordAuthenticationToken(account.getUsername(), account.getPassword(), account.getAuthorities());
+                return auth;
+            }
         }
         return null;
     }
