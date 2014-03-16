@@ -1,0 +1,12 @@
+target/
+*.iml
+*.ipr
+*.iws
+.idea/
+.classpath
+.project
+.springBeans
+.settings/
+/bin
+web/.externalToolBuilders/org.eclipse.wst.jsdt.core.javascriptValidator (2).launch
+web/src/main/resources/messages.properties
