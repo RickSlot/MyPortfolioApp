@@ -8,6 +8,11 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+
 /**
  * @author Rick Slot
  */
@@ -31,4 +36,13 @@ public class ProjectRepository {
         Query query = new Query(Criteria.where("id").is(projectId));
         return mongoTemplate.findOne(query, Project.class);
     }
+
+    public List<Project> findProjectsOfAccount(String username) {
+        Criteria criteria = new Criteria().orOperator(Criteria.where("collaboratorUsernames").is(username),
+                                                       Criteria.where("username").is(username));
+        Query query = new Query(criteria);
+        return mongoTemplate.find(query, Project.class);
+    }
+
+
 }

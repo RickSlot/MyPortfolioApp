@@ -6,9 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -38,6 +36,24 @@ public class ProjectServiceImpl implements ProjectService{
         return project;
     }
 
+    @Override
+    public List<Project> findProjectsOfAccount(String username){
+        return projectRepository.findProjectsOfAccount(username);
+    }
+
+    @Override
+    public Set<String> findProjectCategoriesOfAccount(String username){
+        List<Project> projects = projectRepository.findProjectsOfAccount(username);
+        Set<String> categories = new LinkedHashSet<>();
+
+        for(Project project : projects){
+            categories.add(project.getCategory());
+        }
+        return categories;
+    }
+
+
+
     private String convertDescription(String description){
         final Pattern pattern = Pattern.compile("<image>(.+?)</image>");
         final Matcher matcher = pattern.matcher(description);
@@ -47,4 +63,6 @@ public class ProjectServiceImpl implements ProjectService{
         }
         return description;
     }
+
+
 }
