@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" name="Default" comment="" />
     <ignored path="MyPortfolioAppBackend.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Biography.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1393944701663" ignored="false" />
@@ -16,7 +13,7 @@
     <file path="/AccountServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394561044455" ignored="false" />
     <file path="/AccountService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394560966408" ignored="false" />
     <file path="/AccountController.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394629682796" ignored="false" />
-    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991789688" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991956237" ignored="false" />
     <file path="/a.dummy" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979218335" ignored="false" />
     <file path="/WebConfig.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394548602455" ignored="false" />
     <file path="/pom.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394896087119" ignored="false" />
@@ -60,9 +57,10 @@
     <file path="/createPicture.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394988177303" ignored="false" />
     <file path="/PictureService.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394895860492" ignored="false" />
     <file path="/PictureServiceImpl.java" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979999616" ignored="false" />
-    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394991954986" ignored="false" />
+    <file path="$USER_HOME$/Documents/Projects/brightcenter/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992023635" ignored="false" />
     <file path="/log4j.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394979355468" ignored="false" />
     <file path="/project.jsp" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394984633298" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4b76ee83-9b9c-4f2e-810d-ce9128a6e8b3" time="1394992023635" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -998,7 +996,11 @@
       <created>1394991792463</created>
       <updated>1394991792463</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added gitignore">
+      <created>1394991967495</created>
+      <updated>1394991967495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">

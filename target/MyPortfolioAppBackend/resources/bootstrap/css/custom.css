@@ -8,17 +8,6 @@ body {
     background-color: #eeeeee;
 }
 
-footer {
-    margin-top: 45px;
-    padding-top: 5px;
-    border-top: 1px solid #eeeeee;
-
-}
-
-footer p {
-    float: right;
-}
-
 #logo {
     float: left;
     margin-right: 10px;
