@@ -27,7 +27,18 @@ public class ProjectServiceImpl implements ProjectService{
     }
 
     @Override
-    public Project findProjectById(String projectId) {
+    public boolean updateProject(Project project){
+        projectRepository.save(project);
+        return true;
+    }
+
+    @Override
+    public Project findProjectById(String projectId){
+        return projectRepository.findProjectById(projectId);
+    }
+
+    @Override
+    public Project findProjectByIdAndConvert(String projectId) {
         Project project = projectRepository.findProjectById(projectId);
         if(project != null){
             project.setDescription(project.getDescription().replaceAll("(\r|\n)", "<br>"));
@@ -51,8 +62,6 @@ public class ProjectServiceImpl implements ProjectService{
         }
         return categories;
     }
-
-
 
     private String convertDescription(String description){
         final Pattern pattern = Pattern.compile("<image>(.+?)</image>");

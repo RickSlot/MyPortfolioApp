@@ -17,7 +17,7 @@
 <div class="container">
     <%@ include file="header.jsp" %>
 
-    <div class="col-lg-6 col-lg-offset-3 panel panel-primary">
+    <div class="col-lg-8 col-lg-offset-2 panel panel-primary">
         <div class="panel-heading">
             <h2 class="panel-title">Create Project</h2>
         </div>
@@ -29,12 +29,12 @@
                 <input id="name" class="form-control" name="name" type="text"><br>
                 <label for="company">Company:</label><br>
                 <input id="company" class="form-control" name="company" type="text"><br>
-                <label for="text">category:</label><br>
-                <input type="text" class="form-control" name="category" id="category">
+                <label for="text">Category:</label><br>
+                <input type="text" class="form-control" name="category" id="category"><br>
                 <label for="description">Summary:</label><br>
-                <input type="text" class="form-control" name="summary" id="description">
-                <label for="text">text:</label><br>
-                <textarea class="form-control" name="description" id="text"></textarea><br>
+                <input type="text" class="form-control" name="summary" id="description"><br>
+                <label for="text">Text:</label><br>
+                <textarea class="form-control" name="description" id="text" rows="10"></textarea><br>
 
                 <button class="btn btn-md btn-primary">Create!</button>
                 <br><br>

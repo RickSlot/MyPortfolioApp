@@ -39,7 +39,7 @@ public class ProjectRepository {
 
     public List<Project> findProjectsOfAccount(String username) {
         Criteria criteria = new Criteria().orOperator(Criteria.where("collaboratorUsernames").is(username),
-                                                       Criteria.where("username").is(username));
+                                                       Criteria.where("ownerUsername").is(username));
         Query query = new Query(criteria);
         return mongoTemplate.find(query, Project.class);
     }

@@ -16,10 +16,17 @@
 <body>
 <div class="container">
     <%@ include file="header.jsp" %>
+    <sec:authentication var="principal" property="principal" />
+
 
     <div class="col-lg-10 col-lg-offset-1 panel panel-primary">
         <div class="panel-heading">
-            <h1 class="panel-title">${project.name}</h1>
+            <h1 class="panel-title">
+                ${project.name}
+                <c:if test="${principal == project.ownerUsername}">
+                    <a href="/project/updatePage/${project.id}" class="btn btn-xs btn-success">Edit</a>
+                </c:if>
+            </h1>
         </div>
 
         <div class="panel-body">

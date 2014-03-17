@@ -12,9 +12,13 @@ public interface ProjectService {
 
     boolean saveProject(Project project);
 
-    Project findProjectById(String projectId);
+    Project findProjectByIdAndConvert(String projectId);
 
     List<Project> findProjectsOfAccount(String username);
 
     Set<String> findProjectCategoriesOfAccount(String username);
+
+    Project findProjectById(String projectId);
+
+    boolean updateProject(Project project);
 }

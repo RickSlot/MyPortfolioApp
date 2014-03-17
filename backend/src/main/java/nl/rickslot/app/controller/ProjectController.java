@@ -27,6 +27,19 @@ public class ProjectController {
         return "createProject";
     }
 
+    @RequestMapping(value = "/updatePage/{projectId}")
+    public ModelAndView updateProjectPage(@PathVariable("projectId") String projectId){
+        ModelAndView view = new ModelAndView();
+        Project project = projectService.findProjectById(projectId);
+        if(project != null){
+            view.addObject("project", project);
+            view.setViewName("updateProject");
+            return view;
+        }
+        view.setViewName("/error/404");
+        return view;
+    }
+
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public ModelAndView createProject(RedirectAttributes attributes, Project project){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -42,12 +55,29 @@ public class ProjectController {
         return view;
     }
 
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    public ModelAndView updateProject(RedirectAttributes attributes, Project project){
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        project.setOwnerUsername(auth.getName());
+        ModelAndView view = new ModelAndView();
+        if(projectService.updateProject(project)){
+            attributes.addFlashAttribute("message_success", "Project updated succesfully!");
+            view.setViewName("redirect:/");
+            return view;
+        }
+        attributes.addFlashAttribute("message_error", "Something went wrong with updating the project.");
+        view.setViewName("redirect:/project/updatePage");
+        return view;
+    }
+
+
+
     @RequestMapping(value = "/show/{projectId}")
     public ModelAndView showProject(@PathVariable("projectId") String projectId){
         ModelAndView view = new ModelAndView();
-        Project project = projectService.findProjectById(projectId);
+        Project project = projectService.findProjectByIdAndConvert(projectId);
         if(project != null){
-            view.addObject("project", projectService.findProjectById(projectId));
+            view.addObject("project", projectService.findProjectByIdAndConvert(projectId));
             view.setViewName("project");
             return view;
         }

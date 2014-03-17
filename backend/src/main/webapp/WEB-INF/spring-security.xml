@@ -8,6 +8,7 @@
 
     <http auto-config="true" use-expressions="true">
         <intercept-url pattern="/project/createPage" access="hasRole('ROLE_USER')" />
+        <intercept-url pattern="/project/updatePage/*" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/project/create" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/picture/create" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/picture/createPage" access="hasRole('ROLE_USER')" />
