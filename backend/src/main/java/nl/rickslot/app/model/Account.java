@@ -21,7 +21,7 @@ public class Account implements UserDetails{
     String lastName;
     String password;
     String role = "ROLE_USER";
-    Byte pictureBytes[];
+    String Biography;
 
     public String getUsername() {
         return username;
@@ -83,19 +83,19 @@ public class Account implements UserDetails{
         this.password = password;
     }
 
-    public Byte[] getPictureBytes() {
-        return pictureBytes;
-    }
-
-    public void setPictureBytes(Byte[] pictureBytes) {
-        this.pictureBytes = pictureBytes;
-    }
-
     public String getRole() {
         return role;
     }
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public String getBiography() {
+        return Biography;
+    }
+
+    public void setBiography(String biography) {
+        Biography = biography;
     }
 }

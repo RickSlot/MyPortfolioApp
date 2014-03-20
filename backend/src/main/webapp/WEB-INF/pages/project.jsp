@@ -31,11 +31,21 @@
 
         <div class="panel-body">
             <p><strong>Project Name: </strong>${project.name}</p>
+            <p><strong>Project Owner: </strong>${project.ownerUsername}</p>
+            <p><strong>Collaborators: </strong>
+                <c:forEach items="${project.collaboratorUsernames}" var="collaborator">
+                    <c:if test="${collaborator != null}">
+                        ${collaborator},
+                    </c:if>
+                </c:forEach>
+            </p>
             <p><strong>Company: </strong>${project.company}</p>
             <p><strong>Category: </strong>${project.category}</p>
             <p><strong>Summary: </strong> ${project.summary}</p>
             <p><strong>Description: </strong></p><br>
-            <p>${project.description}</p>
+            <div style="border: 1px solid #808080; border-radius: 5px; padding: 10px;">
+                <p>${project.description}</p>
+            </div>
         </div>
 
     </div>

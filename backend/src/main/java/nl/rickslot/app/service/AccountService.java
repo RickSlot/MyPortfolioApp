@@ -13,4 +13,6 @@ public interface AccountService {
     Account findByUsername(String username);
 
     ModelAndView createViewForAccount(String username);
+
+    boolean edit(Account account);
 }

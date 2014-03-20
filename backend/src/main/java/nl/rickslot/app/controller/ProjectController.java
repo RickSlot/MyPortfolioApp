@@ -29,12 +29,15 @@ public class ProjectController {
 
     @RequestMapping(value = "/updatePage/{projectId}")
     public ModelAndView updateProjectPage(@PathVariable("projectId") String projectId){
-        ModelAndView view = new ModelAndView();
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         Project project = projectService.findProjectById(projectId);
-        if(project != null){
-            view.addObject("project", project);
-            view.setViewName("updateProject");
-            return view;
+        ModelAndView view = new ModelAndView();
+        if(project.getOwnerUsername().equals(auth.getName())){
+            if(project != null){
+                view.addObject("project", project);
+                view.setViewName("updateProject");
+                return view;
+            }
         }
         view.setViewName("/error/404");
         return view;
@@ -58,11 +61,10 @@ public class ProjectController {
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     public ModelAndView updateProject(RedirectAttributes attributes, Project project){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        project.setOwnerUsername(auth.getName());
         ModelAndView view = new ModelAndView();
         if(projectService.updateProject(project)){
             attributes.addFlashAttribute("message_success", "Project updated succesfully!");
-            view.setViewName("redirect:/");
+            view.setViewName("redirect:/project/show/" +  project.getId());
             return view;
         }
         attributes.addFlashAttribute("message_error", "Something went wrong with updating the project.");

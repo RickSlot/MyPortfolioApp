@@ -17,6 +17,7 @@
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script type="text/javascript" src="../resources/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/resources/js/account.js"></script>
 
 
     <script>
@@ -31,21 +32,28 @@
 </head>
 <body>
 <%@ include file="header.jsp" %>
+<sec:authentication var="principal" property="principal" />
 <div class="container">
     <div class="row">
         <div class="col-lg-3 top-buffer panel panel-primary">
             <div class="panel-heading">
-                <h2 class="panel-title">Profile</h2>
+                <h2 class="panel-title">
+                    Profile
+                    <c:if test="${principal == account.username}">
+                        <a href="/account/editProfile" class="btn btn-xs btn-success">Edit</a>
+                    </c:if>
+                </h2>
             </div>
             <div class="panel-body">
                 <c:if test="${account != null}">
-                    <img src="http://www.aafje.nl/filelib/s1/profile.jpg" alt="profile pic" height="200" width="175">
+                    <img id="gravatar" alt="profile pic" height="200" width="175">
+                    <script type="text/javascript">
+                        setGravatar("${account.username}");
+                    </script>
                     <p><br><strong>Firstname: </strong>${account.firstName}<br>
                     <strong>Lastname: </strong>${account.lastName}<br>
                     <strong>Username: </strong>${account.username}<br>
-                    <c:if test="${biography != null}">
-                        <strong>Motto: </strong>${biography.text}</p>
-                    </c:if>
+                    <strong>Motto: </strong>${account.biography}</p>
                 </c:if>
             </div>
 
@@ -85,32 +93,32 @@
         </div>
 
     </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 top-buffer panel panel-primary">
-            <div class="panel-heading">
-                <h2 class="panel-title">CV</h2>
-            </div>
-            <div class="panel-body">
-                <p>ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Here is all
-                    your
-                    ere is all your information!Here is all your information!Here is all your information!Her is all
-                    your</p>
-            </div>
-        </div>
+    <%--<div class="row">--%>
+        <%--<div class="col-lg-8 col-lg-offset-2 top-buffer panel panel-primary">--%>
+            <%--<div class="panel-heading">--%>
+                <%--<h2 class="panel-title">CV</h2>--%>
+            <%--</div>--%>
+            <%--<div class="panel-body">--%>
+                <%--<p>ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Here is all--%>
+                    <%--your--%>
+                    <%--ere is all your information!Here is all your information!Here is all your information!Her is all--%>
+                    <%--your</p>--%>
+            <%--</div>--%>
+        <%--</div>--%>
     </div>
 </div>
 <%@include file="footer.jsp" %>

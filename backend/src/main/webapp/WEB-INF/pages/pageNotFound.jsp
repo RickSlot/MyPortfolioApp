@@ -10,8 +10,8 @@
 <head>
     <title>Page not found!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/bootstrap-theme2.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../resources/bootstrap/css/custom.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap-theme2.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/custom.css" media="screen">
 </head>
 <body>
 <div class="container">
