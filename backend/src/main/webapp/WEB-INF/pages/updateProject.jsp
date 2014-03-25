@@ -36,7 +36,8 @@
                 <input id="ownerShow" class="form-control" name="id" type="text" value="${project.ownerUsername}" disabled><br>
                 <input id="ownerUsername" name="ownerUsername" type="hidden" value="${project.ownerUsername}">
                 <label for="name">Name:</label><br>
-                <input id="name" class="form-control" name="name" type="text" value="${project.name}"><br>
+                <input id="name" class="form-control" name="showName" type="text" value="${project.name}" disabled><br>
+                <input id="nameSend" name="name" type="hidden" value="${project.name}">
                 <label for="company">Company:</label><br>
                 <input id="company" class="form-control" name="company" type="text" value="${project.company}"><br>
                 <label for="text">Category:</label><br>

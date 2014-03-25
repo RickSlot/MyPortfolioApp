@@ -77,7 +77,7 @@
                                 <c:if test="${projects != null}">
                                     <c:forEach items="${projects}" var="project">
                                         <c:if test="${project.category == categorie}">
-                                            <a href="/project/show/${project.id}"
+                                            <a href="/project/show/${project.ownerUsername}/${project.name}"
                                                class="btn top-buffer btn-default col-lg-12">${project.name}</a>
                                         </c:if>
                                     </c:forEach>

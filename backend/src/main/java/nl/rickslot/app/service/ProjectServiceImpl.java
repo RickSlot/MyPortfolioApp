@@ -21,7 +21,7 @@ public class ProjectServiceImpl implements ProjectService{
 
     @Override
     public boolean saveProject(Project project) {
-        project.setId(UUID.randomUUID().toString());
+        project.setId(project.getOwnerUsername() + "-" + project.getName());
         projectRepository.save(project);
         return true;
     }
@@ -42,7 +42,7 @@ public class ProjectServiceImpl implements ProjectService{
         Project project = projectRepository.findProjectById(projectId);
         if(project != null){
             project.setDescription(project.getDescription().replaceAll("(\r|\n)", "<br>"));
-            project.setDescription(convertDescription(project.getDescription()));
+            project.setDescription(convertDescription(project.getDescription(), project.getOwnerUsername()));
         }
         return project;
     }
@@ -63,11 +63,11 @@ public class ProjectServiceImpl implements ProjectService{
         return categories;
     }
 
-    private String convertDescription(String description){
+    private String convertDescription(String description, String owner){
         final Pattern pattern = Pattern.compile("<image>(.+?)</image>");
         final Matcher matcher = pattern.matcher(description);
         while(matcher.find()){
-            String imageString = "<br><img src='/picture/show/rickslot@live.nl-" + matcher.group(1) +".png' height='200' width='200'><br>";
+            String imageString = "<br><img src='/picture/show/"+ owner + "-" + matcher.group(1) +".png' height='200' width='200'><br>";
             description = description.replace("<image>" + matcher.group(1) + "</image>", imageString);
         }
         return description;

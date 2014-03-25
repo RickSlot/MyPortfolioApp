@@ -36,7 +36,7 @@ public class ProjectController {
      * @param projectId the id of the project that needs to be updated
      * @return the update page or 404 if the project is not found
      */
-    @RequestMapping(value = "/updatePage/{projectId}")
+    @RequestMapping(value = "/updatePage/{projectId:.+.}")
     public ModelAndView updateProjectPage(@PathVariable("projectId") String projectId){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         Project project = projectService.findProjectById(projectId);
@@ -85,7 +85,7 @@ public class ProjectController {
         ModelAndView view = new ModelAndView();
         if(projectService.updateProject(project)){
             attributes.addFlashAttribute("message_success", "Project updated succesfully!");
-            view.setViewName("redirect:/project/show/" +  project.getId());
+            view.setViewName("redirect:/project/show/"+ project.getOwnerUsername() + "/" +  project.getName());
             return view;
         }
         attributes.addFlashAttribute("message_error", "Something went wrong with updating the project.");
@@ -98,12 +98,12 @@ public class ProjectController {
      * @param projectId the project that needs to be shown
      * @return the page of the project or a 404 page
      */
-    @RequestMapping(value = "/show/{projectId}")
-    public ModelAndView showProject(@PathVariable("projectId") String projectId){
+    @RequestMapping(value = "/show/{username:.+.}/{projectId}")
+    public ModelAndView showProject(@PathVariable("projectId") String projectId, @PathVariable("username") String username){
         ModelAndView view = new ModelAndView();
-        Project project = projectService.findProjectByIdAndConvert(projectId);
+        Project project = projectService.findProjectByIdAndConvert(username + "-" + projectId);
         if(project != null){
-            view.addObject("project", projectService.findProjectByIdAndConvert(projectId));
+            view.addObject("project", project);
             view.setViewName("project");
             return view;
         }
