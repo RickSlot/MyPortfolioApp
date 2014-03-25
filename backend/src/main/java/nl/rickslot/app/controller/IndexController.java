@@ -14,6 +14,11 @@ import java.security.Principal;
 @RequestMapping("/")
 public class IndexController {
 
+    /**
+     * Returns the homepage, checks if user is logged in or not
+     * @param principal the logged in user, is null when not logged in
+     * @return the desired homepage
+     */
     @RequestMapping(value = {"", "home"})
     public String home(Principal principal){
         if(principal != null){
@@ -22,11 +27,20 @@ public class IndexController {
         return "home";
     }
 
+    /**
+     * Shows the signup page
+     * @return the signup page
+     */
     @RequestMapping(value = "signup")
-    public String signup(RedirectAttributes attributes){
+    public String signup(){
         return "signup";
     }
 
+    /**
+     * returns the login page if not logged in, else redirect to homepage
+     * @param principal the logged in user, is null when not logged in
+     * @return the desired page
+     */
     @RequestMapping(value = "login")
     public String login(Principal principal){
         if(principal == null){
@@ -36,6 +50,10 @@ public class IndexController {
 
     }
 
+    /**
+     * function used to logout
+     * @return a redirect to the standard spring logout page.
+     */
     @RequestMapping(value = "logout")
     public String logout(){
         return "redirect:/j_spring_security_logout";

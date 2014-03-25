@@ -22,6 +22,12 @@ public class PictureController {
     @Autowired
     PictureService pictureService;
 
+    /**
+     * calls picture service to create a picture. returns the right page afterward
+     * @param picture
+     * @param redirectAttributes
+     * @return redirect to home
+     */
     @RequestMapping(value = "/create")
     public String createPicture(Picture picture, RedirectAttributes redirectAttributes){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
@@ -30,11 +36,20 @@ public class PictureController {
         return "redirect:/";
     }
 
+    /**
+     * Creates the picture page
+     * @return the name of the picture page
+     */
     @RequestMapping(value = "/createPage")
     public String createPicturePage(){
         return "createPicture";
     }
 
+    /**
+     * returns the page that shows a picture
+     * @param name the name of the picture
+     * @return the picture bytes
+     */
     @RequestMapping(value = "/show/{name:.+.}.png")
     @ResponseBody
     public byte[] showPicture(@PathVariable("name") String name){

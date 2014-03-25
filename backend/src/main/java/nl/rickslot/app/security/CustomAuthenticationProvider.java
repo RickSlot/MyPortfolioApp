@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * This class handles the login
 * @author Rick Slot
 */
 @Component
@@ -27,6 +28,12 @@ public class CustomAuthenticationProvider implements AuthenticationProvider{
     @Autowired
     PasswordEncoder passwordEncoder;
 
+    /**
+     * This method is called when a login is performed, it returns a useraccount if it can login
+     * @param authentication
+     * @return
+     * @throws AuthenticationException
+     */
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         Account  account = accountService.findByUsername(authentication.getName());

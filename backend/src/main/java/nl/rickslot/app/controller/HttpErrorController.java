@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/error")
 public class HttpErrorController {
 
+    /**
+     * shows a 404 not found page
+     * @return pagenotfound page.
+     */
     @RequestMapping(value = "/404")
     public String error404(){
         return "pageNotFound";

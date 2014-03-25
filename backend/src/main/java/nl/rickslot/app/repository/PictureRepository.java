@@ -22,10 +22,19 @@ public class PictureRepository {
         return new PictureRepository();
     }
 
+    /**
+     * This method saves a picture
+     * @param picture
+     */
     public void savePicture(Picture picture){
         mongoTemplate.save(picture);
     }
 
+    /**
+     * finds a picture
+     * @param name the name of the picture
+     * @return the picture that is found
+     */
     public Picture findPicture(String name) {
         Query query = new Query(Criteria.where("name").is(name));
         return mongoTemplate.findOne(query, Picture.class);

@@ -3,6 +3,10 @@ package nl.rickslot.app.service;
 import java.util.*;
 import java.io.*;
 import java.security.*;
+
+/**
+ * This class is used to calculate the md5 hash of a string
+ */
 public class MD5Util {
     public static String hex(byte[] array) {
         StringBuffer sb = new StringBuffer();

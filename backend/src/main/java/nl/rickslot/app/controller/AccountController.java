@@ -30,6 +30,11 @@ public class AccountController {
     @Autowired
     ProjectService projectService;
 
+    /**
+     * shows the account page of the logged in user.
+     * @param principal
+     * @return the account page or the homepage
+     */
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ModelAndView showAccountPage(Principal principal) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -41,8 +46,13 @@ public class AccountController {
         return view;
     }
 
+    /**
+     * Shows the account page of the given username
+     * @param username
+     * @return returns the page or a page not found
+     */
     @RequestMapping(value = "/{username:.+}", method = RequestMethod.GET)
-    public ModelAndView schowPageForUsername(@PathVariable("username") String username) {
+    public ModelAndView showPageForUsername(@PathVariable("username") String username) {
         Account account = accountService.findByUsername(username);
         if (account != null) {
             return accountService.createViewForAccount(username);
@@ -52,6 +62,12 @@ public class AccountController {
         return view;
     }
 
+    /**
+     * this function calls the account service to save an account
+     * @param account the account that needs to be saved.
+     * @param redirectAttributes
+     * @return the signup page or the homepage
+     */
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public ModelAndView createAccount(Account account, RedirectAttributes redirectAttributes) {
         ModelAndView view = new ModelAndView();
@@ -66,6 +82,10 @@ public class AccountController {
         return view;
     }
 
+    /**
+     *This function returns the edit profile page
+     * @return
+     */
     @RequestMapping(value = "editProfile", method = RequestMethod.GET)
     public ModelAndView showEditProfilePage() {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -80,6 +100,12 @@ public class AccountController {
         return view;
     }
 
+    /**
+     * this function calls the account service to edit an account
+     * @param account the account that needs to be edited
+     * @param redirectAttributes
+     * @return the homepage or the edit account page
+     */
     @RequestMapping(value = "/edit", method = RequestMethod.POST)
     public ModelAndView editAccount(Account account, RedirectAttributes redirectAttributes) {
         ModelAndView view = new ModelAndView();
@@ -93,6 +119,10 @@ public class AccountController {
         return view;
     }
 
+    /**
+     * calculates the md5 hash of an username for the gravatar image
+     * @return the md5 hash
+     */
     @RequestMapping(value = "/md5", method = RequestMethod.GET)
     @ResponseBody
     public String getMd5Hash() {

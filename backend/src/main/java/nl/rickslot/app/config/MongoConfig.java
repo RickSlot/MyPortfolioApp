@@ -13,6 +13,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 
 /**
+ * This class sets up the mongo connection.
  * @author Rick Slot
  */
 @Configuration

@@ -20,6 +20,7 @@ public class PictureServiceImpl implements PictureService{
     public boolean createPicture(Picture picture, String username){
         picture.setOwnerUsername(username);
         picture.setName(username +  "-" + picture.getName());
+        /* Convert file to bytes */
         if(picture.getFile() !=null){
             try {
                 picture.setPictureBytes(picture.getFile().getBytes());

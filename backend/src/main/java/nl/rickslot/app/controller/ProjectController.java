@@ -22,11 +22,20 @@ public class ProjectController {
     @Autowired
     ProjectService projectService;
 
+    /**
+     * Shows the create project page
+     * @return the create project page
+     */
     @RequestMapping(value = "/createPage")
     public String createProjectPage(){
         return "createProject";
     }
 
+    /**
+     * Returns the update page for a project
+     * @param projectId the id of the project that needs to be updated
+     * @return the update page or 404 if the project is not found
+     */
     @RequestMapping(value = "/updatePage/{projectId}")
     public ModelAndView updateProjectPage(@PathVariable("projectId") String projectId){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -43,6 +52,12 @@ public class ProjectController {
         return view;
     }
 
+    /**
+     * Calls projectservice to create a project.
+     * @param attributes used to redirect after the save
+     * @param project the project that needs to be saved
+     * @return redirect to home if created, otherwise an error message.
+     */
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public ModelAndView createProject(RedirectAttributes attributes, Project project){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -58,6 +73,12 @@ public class ProjectController {
         return view;
     }
 
+    /**
+     * call projectservice to update a project
+     * @param attributes  used to redirect after the update
+     * @param project the project that needs to be updated
+     * @return the project page or an error message.
+     */
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     public ModelAndView updateProject(RedirectAttributes attributes, Project project){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -72,8 +93,11 @@ public class ProjectController {
         return view;
     }
 
-
-
+    /**
+     * Show the page of a project
+     * @param projectId the project that needs to be shown
+     * @return the page of the project or a 404 page
+     */
     @RequestMapping(value = "/show/{projectId}")
     public ModelAndView showProject(@PathVariable("projectId") String projectId){
         ModelAndView view = new ModelAndView();
