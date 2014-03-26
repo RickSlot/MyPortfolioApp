@@ -8,6 +8,8 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 /**
  * @author Rick Slot
  */
@@ -38,5 +40,10 @@ public class PictureRepository {
     public Picture findPicture(String name) {
         Query query = new Query(Criteria.where("name").is(name));
         return mongoTemplate.findOne(query, Picture.class);
+    }
+
+    public List<Picture> findAllPicturesOfAccount(String username){
+        Query query = new Query(Criteria.where("ownerUsername").is(username));
+        return mongoTemplate.find(query, Picture.class);
     }
 }

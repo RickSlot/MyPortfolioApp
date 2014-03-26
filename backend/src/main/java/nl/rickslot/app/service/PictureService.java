@@ -2,6 +2,8 @@ package nl.rickslot.app.service;
 
 import nl.rickslot.app.model.Picture;
 
+import java.util.List;
+
 /**
  * @author Rick Slot
  */
@@ -20,4 +22,6 @@ public interface PictureService {
      * @return the picture that is found
      */
     Picture findPicture(String name);
+
+    List<String> findAllPictureNamesOfAccount(String username);
 }

@@ -44,6 +44,12 @@
                 <input type="text" class="form-control" name="category" id="category" value="${project.category}"><br>
                 <label for="summary">Summary:</label><br>
                 <input type="text" class="form-control" name="summary" id="summary" value="${project.summary}"><br>
+                <label for="tags">Imagetags:</label><br>
+                <p id="tags">
+                    <c:forEach items="${imageTags}" var="tag">
+                        ${tag},
+                    </c:forEach>
+                </p>
                 <label for="text">Text:</label><br>
                 <textarea class="form-control" name="description" id="text" rows="10">${project.description}</textarea><br>
                 <div id="collaborators-field">

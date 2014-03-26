@@ -1,6 +1,7 @@
 package nl.rickslot.app.controller;
 
 import nl.rickslot.app.model.Project;
+import nl.rickslot.app.service.PictureService;
 import nl.rickslot.app.service.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -21,6 +22,9 @@ public class ProjectController {
 
     @Autowired
     ProjectService projectService;
+
+    @Autowired
+    PictureService pictureService;
 
     /**
      * Shows the create project page
@@ -44,6 +48,7 @@ public class ProjectController {
         if(project.getOwnerUsername().equals(auth.getName())){
             if(project != null){
                 view.addObject("project", project);
+                view.addObject("imageTags", pictureService.findAllPictureNamesOfAccount(project.getOwnerUsername()));
                 view.setViewName("updateProject");
                 return view;
             }
