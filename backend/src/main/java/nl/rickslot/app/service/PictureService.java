@@ -23,5 +23,10 @@ public interface PictureService {
      */
     Picture findPicture(String name);
 
+    /**
+     * Returns a list of all the imagenames that are present
+     * @param username the username of the account the images belong to
+     * @return a list of strings
+     */
     List<String> findAllPictureNamesOfAccount(String username);
 }

@@ -42,6 +42,11 @@ public class PictureRepository {
         return mongoTemplate.findOne(query, Picture.class);
     }
 
+    /**
+     * Returns a list of all pictures of a user.
+     * @param username the username of the pictures
+     * @return a list of pictures
+     */
     public List<Picture> findAllPicturesOfAccount(String username){
         Query query = new Query(Criteria.where("ownerUsername").is(username));
         return mongoTemplate.find(query, Picture.class);
