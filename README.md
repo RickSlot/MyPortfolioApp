@@ -6,19 +6,21 @@ Welcome to MyPortfolioApp. MyPortfolioApp (MPA) will provide a portfolio app for
 Features:
 
 - Add projects
+- edit projects
 - add colaborator to project
 - change biography
-- change CV
 - biography image from gravatar
-- configuration
-
-
-spare time features:
-- Follow other user
+- add images
+- create account
 
 Technologies:
 - Spring
+- JSP
 - javascript
 - html5
-- senchatouch
 - mongodb
+
+
+###How to install?
+
+You'll need a few things for the project to work. first you'll need to install mongo. it needs to be running when you want to use the app. next install an idea like intellij or eclipse. import the project and use maven to download all the dependency. now run the project using tomcat 7. and everything will work fine!
